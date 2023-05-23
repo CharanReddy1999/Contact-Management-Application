@@ -16,3 +16,13 @@ Now we need to create a model which is type of acceptance basically the schema, 
 
 
 // we use bcrypt for password hashing
+
+// JWT Access token and User Login
+
+* JWT is known as JSON Web Token. It consists of 3 parts. Header which contains algorithm and type of.
+Then comes the PAYLOAD, where it contains the user information. The last part is
+signature verification.
+
+after generating access token we can acces through the private routes.
+
+
