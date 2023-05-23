@@ -1,0 +1,18 @@
+AUTHENTICATION-
+
+
+In Authentication, we are going to provide some endpoints which will help us a user to register
+themselves and then login.
+
+Once they login, they can use a acces token and with the help of access token
+they can manage their contacts.
+
+For this, first go to server.js file and create a routing first.
+
+After that create a controller file and all the functions and logic under it so that in route
+file it calls the function in controller.
+
+Now we need to create a model which is type of acceptance basically the schema, for registring the user.
+
+
+// we use bcrypt for password hashing
